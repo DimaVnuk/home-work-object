@@ -23,7 +23,7 @@ object.stringKeyValue = function () {
     for (let key in object) {
         console.log(key + ': ' + object[key]);
     }
-}
+};
 
 let checkObject = function (newObject) {
     for (let key in newObject) {
@@ -32,5 +32,5 @@ let checkObject = function (newObject) {
         }
     }
     return false
-}
+};
 
